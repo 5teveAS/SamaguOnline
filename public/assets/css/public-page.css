@@ -1,0 +1,151 @@
+html {
+    /*font-size: 62.5%;*/
+    box-sizing: border-box;
+
+
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    /*font-family: $fuente_principal;*/
+    font-size: 1.5rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+p {
+    color: black;
+}
+.contenedor {
+    width: 70%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+
+    h1{
+    text-align: center;
+    }
+}
+
+#samagu-logo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+@media (max-width: 768px) {
+    .barra{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.margin-50{
+    margin: 50px;
+}
+.btn-iniciarSesion{
+  height: 40px;
+}
+.samagu-logo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+.seccion-principal{
+    margin-top: 60px;
+}
+
+.seccion-1{
+    margin-top: 50px;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(2, 1fr);
+}
+@media (max-width: 768px) {
+    .seccion-1{
+        grid-template-columns:repeat(1, 1fr);
+    }
+}
+@media (max-width: 1300px) {
+    .seccion-1{
+        grid-template-columns:repeat(1, 1fr);
+    }
+}
+.imagenes{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.seccion-2{
+    margin-top: 50px;
+
+}
+.seccion-2-1{
+    margin-top: 50px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns:repeat(3, 1fr);
+}
+@media (max-width: 768px) {
+    .seccion-2-1{
+        grid-template-columns:repeat(1, 1fr);
+    }
+}
+.seccion-3{
+    margin-top: 50px;
+    display: grid;
+    max-height: 350px;
+    gap: 50px;
+    grid-template-rows:repeat(2, 1fr);
+    justify-items: center;
+    text-align: center
+}
+@media (max-width: 768px) {
+    .seccion-3{
+        grid-template-rows:repeat(2, 1fr);
+    }
+}
+.samaguPhoto5{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.footer{
+    border-top: 0.5px solid gray;
+    padding: 25px;
+
+}
+ul {
+    list-style: none;
+}
+.info-footer{
+display: flex;
+font-size: 12px;
+justify-content: space-between;
+
+}
+@media (max-width: 768px) {
+    .info-footer{
+        flex-direction: column;
+        justify-content: none;
+    }
+}
+/*
+img,
+picture {
+    width: 100%;
+    display: block;
+}*/
